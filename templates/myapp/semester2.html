@@ -1,0 +1,11 @@
+<body>
+    <h1>Professor Page</h1>
+    <p>Choose a semester: </p>
+    <form action='/polls/results2' method='POST'>
+        {% csrf_token %}
+        <button type='submit' name='1' value="1"> Fall </button>
+		<button type='submit' name='2' value="2"> Spring </button>
+		<button type='submit' name='3' value="3"> Summer </button>
+    </form>
+
+</body>
